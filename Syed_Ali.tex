@@ -156,32 +156,37 @@
 
 
 
-\begin{joblong}{Machine Learning Researcher, Beatoven.ai}{Jan 2024 – Present}
+\begin{joblong}{Machine Learning Researcher, Rusk Media}{Feb 2026 – Present}
+    {Keywords: Gemini, Multimodal LLMs, Recommender Systems, k-NN Retrieval, Vector Search, Python}{Bangalore, India}
+    {Building production ML systems for video post-production automation and content recommendation}
+    \item Shipped an \textit{SRT Generator} built on multimodal Gemini models, cutting per-episode subtitle turnaround from \textit{2 days to 25 seconds}; now serving live production workloads for internal post-production teams.
+    \item Shipped an \textit{SRT Translator} reducing full-season subtitle translation from \textit{100+ hours to 5 minutes} ($\sim$99\%), now standard in the post-production pipeline.
+    \item Replaced a third-party recommendation vendor with an \textit{in-house k-NN recommender} after benchmarking Gorse against production load — serving from a single non-GPU VM, fully customizable, and cutting recommendation spend \textit{60\%} (\$2.5K $\rightarrow$ \$1K/month) with further savings on full rollout.
+\end{joblong}
+
+
+\begin{joblong}{Machine Learning Researcher, Beatoven.ai}{Jan 2024 – Jan 2026}
     {Keywords: PyTorch, Diffusion Transformers, LoRA, Distributed Training, MLOps, Data Orchestration}{Bangalore, India}
     {Specializing in generative audio models, large-scale data infrastructure, and foundation model training and optimization}
-    \item Designed Beatoven.ai's \textit{Composer} architecture — an embedding-guided loop retrieval and arrangement model for controllable music generation from text and audio embeddings.
-    \item Engineered low-level optimizations (GPU/CPU parallelization, multithreading, resumable batch processing) achieving a \textit{$7.5\times$ speedup} in training data preprocessing, reducing cleanup turnaround from multiple days to a few hours.
-    \item Built large-scale data curation, preprocessing, and augmentation pipelines for \textit{Maestro}, Beatoven's 2.5B parameter diffusion foundation model trained on several multi-million licensed music track datasets.
-    \item Built fine-tuning pipelines for SFX, genre, and artist adaptation; optimized hyperparameters for \textit{2$\times$ faster convergence} ($48\rightarrow 24$ GPU hours) and improved audio quality.
-    % \item Re-engineered the composer model inference system to process over \textit{100K source audio files within hours}, enabling full-scale embedding re-extraction and retrieval improvements.
-    \item Built modular and reusable distributed training and inference pipelines for in-house embedding extraction models, improving maintainability across research teams and ensuring scalable, collaborative development.
+    \item Designed Beatoven.ai's \textit{Composer} architecture — an embedding-guided loop retrieval and arrangement model for controllable music generation from text and audio.
+    \item Built data curation, preprocessing, and augmentation pipelines for \textit{Maestro}, Beatoven's 2.5B-parameter diffusion foundation model trained on multi-million-track licensed datasets.
+    \item Engineered low-level GPU/CPU parallelization, multithreading, and resumable batch processing for a \textit{$7.5\times$ speedup} in training data preprocessing, cutting dataset turnaround from days to hours.
+    \item Built fine-tuning pipelines for SFX, genre, and artist adaptation; tuned hyperparameters for \textit{$2\times$ faster convergence} ($48\rightarrow 24$ GPU hours) and improved audio quality.
 \end{joblong}
 
 
 \begin{joblong}{AI Developer (Full-Stack \& Data Systems), Beatoven.ai}{July 2021 – Dec 2023}
     {Keywords: Flask, React, MongoDB, Python, REST APIs, Microservices, NLP}{Bangalore, India}
     {Specializing in full-stack development, large-scale data ingestion, and metadata automation for music AI systems}
-    \item Built of Beatoven.ai's \textit{artist portal and internal data ingestion system} — a full-stack Flask + React platform enabling large-scale artist submissions, metadata management, and human annotation workflows.
-    \item Designed and deployed a lightweight \textit{NLP model} for metadata extraction from unstructured text, reducing manual tagging overhead by \textit{$>70\%$} and enabling high-quality dataset curation for early music generation models.
-    \item Built scalable, asynchronous ingestion and cleaning pipelines handling \textit{thousands of artist submissions}, integrated directly with Beatoven's music composition and embedding systems.
-    \item Designed UX dashboards and automation workflows that streamlined team operations, reducing repetitive manual processing and forming the backbone of Beatoven's early data ingestion infrastructure.
+    \item Built Beatoven.ai's \textit{artist portal and data ingestion system} — a full-stack Flask + React platform for large-scale artist submissions, metadata management, human annotation workflows, and internal ops dashboards.
+    \item Designed and deployed a lightweight \textit{NLP model} for metadata extraction from unstructured text, cutting manual tagging overhead \textit{$>70\%$} and enabling high-quality dataset curation for early music generation models.
+    \item Built asynchronous ingestion and cleaning pipelines handling \textit{thousands of artist submissions}, integrated directly with Beatoven's composition and embedding systems.
 \end{joblong}
 
 \begin{joblong}{Founder \& Lead Developer, Tarab Instruments}{June 2024 – Present}
     {Keywords: Embedded Systems, Audio DSP, PCB Design, Analog Circuits}{Bangalore, India}
-    {Designing and building custom MIDI controllers, Eurorack modules, and guitar pedals}
-    \item Founded Tarab Instruments, a boutique hardware studio specializing in custom audio hardware for musicians and producers.
-    \item Teaching workshops on music electronics, synthesis, and DIY audio hardware
+    {Boutique hardware studio building custom MIDI controllers, Eurorack modules, and guitar pedals}
+    \item Design and manufacture custom audio hardware for musicians and producers; teach workshops on music electronics, synthesis, and DIY audio hardware.
 \end{joblong}
     %Projects
 \section{Relevant Projects}
@@ -190,7 +195,7 @@
 \textbf{CrateDig — AI Sample Pack and Music Library Manager} & \hfill \href{https://github.com/basisvectors/CrateDig}{gh/CrateDig} \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{\small{Thesis Project, Dec 2023 - May 2024}}  \\[3.5pt]
 \multicolumn{2}{@{}X@{}}{
-Built an intelligent audio search app for music producers to organize and explore large sample libraries using natural language and reference audio queries. CrateDig analyzes audio, extracts embeddings, and enables fast similarity search via a local, offline desktop UI for Win/MacOS—streamlining sample discovery and retrieval from hours to seconds.
+Offline desktop app (Win/macOS) that lets music producers search large sample libraries by natural language or reference audio — extracting audio embeddings for fast local similarity search, cutting sample discovery from hours to seconds.
 }  \\
 \end{tabularx}
 
@@ -200,7 +205,7 @@ Built an intelligent audio search app for music producers to organize and explor
 \section{Education}
 \begin{degree}{Ramaiah University Of Applied Sciences}
     {Bachelor of Technology in Computer Science and Engineering}{2020 - 2024}{Bangalore, India}
-\textbf{Relevant Coursework:} Machine Learning, System Design, DSA, Automata Theory, Digital Signal Processing, Operating Systems, Database Management Systems
+\textbf{Relevant Coursework:} Machine Learning, System Design, DSA, Digital Signal Processing, Operating Systems, Database Management Systems
 \end{degree}
 
 %----------------------------------------------------------------------------------------
