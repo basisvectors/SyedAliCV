@@ -159,9 +159,8 @@
 \begin{joblong}{Machine Learning Researcher, Rusk Media}{Feb 2026 – Present}
     {Keywords: Gemini, Multimodal LLMs, Recommender Systems, k-NN Retrieval, Vector Search, Python}{Bangalore, India}
     {Building production ML systems for video post-production automation and content recommendation}
-    \item Shipped an \textit{SRT Generator} built on multimodal Gemini models, cutting per-episode subtitle turnaround from \textit{2 days to 25 seconds}; now serving live production workloads for internal post-production teams.
-    \item Shipped an \textit{SRT Translator} reducing full-season subtitle translation from \textit{100+ hours to 5 minutes} ($\sim$99\%), now standard in the post-production pipeline.
-    \item Replaced a third-party recommendation vendor with an \textit{in-house k-NN recommender} after benchmarking Gorse against production load — serving from a single non-GPU VM, fully customizable, and cutting recommendation spend \textit{60\%} (\$2.5K $\rightarrow$ \$1K/month) with further savings on full rollout.
+    \item Shipped two post-production tools built on multimodal Gemini models — an \textit{SRT Generator} (per-episode subtitle turnaround \textit{2 days $\rightarrow$ 25 seconds}) and an \textit{SRT Translator} (full-season translation \textit{100+ hours $\rightarrow$ 5 minutes}) — each designed end-to-end with a visual, self-serve UI and now handling live production workloads for internal teams.
+    \item Replaced a third-party recommendation vendor with an \textit{in-house k-NN recommender} after benchmarking Gorse against production load — serving from a single non-GPU VM and cutting recommendation spend \textit{60\%} (\$2.5K $\rightarrow$ \$1K/month).
 \end{joblong}
 
 
@@ -172,6 +171,7 @@
     \item Built data curation, preprocessing, and augmentation pipelines for \textit{Maestro}, Beatoven's 2.5B-parameter diffusion foundation model trained on multi-million-track licensed datasets.
     \item Engineered low-level GPU/CPU parallelization, multithreading, and resumable batch processing for a \textit{$7.5\times$ speedup} in training data preprocessing, cutting dataset turnaround from days to hours.
     \item Built fine-tuning pipelines for SFX, genre, and artist adaptation; tuned hyperparameters for \textit{$2\times$ faster convergence} ($48\rightarrow 24$ GPU hours) and improved audio quality.
+    \item Standardized distributed training and inference for in-house embedding-extraction models into modular pipelines reused across research teams.
 \end{joblong}
 
 
